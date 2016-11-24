@@ -1,1 +1,101 @@
-/* Tu CSS va aqui */
+*{
+    outline: red 1px solid;
+}
+body{
+    background: #f0eeee;
+    width: 1000px;
+    margin: 0 auto;
+    }
+
+header {
+    display: inline;
+    margin: 5%;
+}
+
+.logo{
+    float: left;
+    width: 50%;
+}
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    }
+
+.navbar li a{
+    color: #c3b7b7;
+    text-decoration: none;
+ }
+
+/* fin de header */
+
+.hero{
+    background: #5f5454;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    }
+
+.titulo{
+    float: left;
+    width: 60%;
+    padding: 5%;
+    text-align: left;
+}
+
+.titulo h1{
+    font-size: 30px ;
+}
+
+.formulario {
+    background: #a59999;
+    text-align: center;
+    display: table-row;
+    }
+
+.formulario buttom{
+    background: #5691d6;
+    text-align: center;
+    
+    }
+
+
+/* fin hero*/
+
+footer{
+    color: #c4b2b2;
+    display: inline;
+}
+
+footer a{
+    text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
