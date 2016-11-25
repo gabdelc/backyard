@@ -1,11 +1,24 @@
-*{
-    outline: red 1px solid;
-}
+
 body{
-    background: #f0eeee;
-    width: 1000px;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.clearfix
+{
+	display: table;
+}
+
+.clearfix:after{
+	content:" ";
+	clear:both;
+}
+.container{
+    width: 90%;
     margin: 0 auto;
-    }
+   	box-sizing: border-box;
+	 }
 
 header {
     display: inline;
@@ -20,6 +33,7 @@ header {
     list-style: none;
     display: inline-block;
     float: right;
+    margin: auto 2%;
     }
 
 .navbar li a{
@@ -32,49 +46,72 @@ header {
 .hero{
     background: #5f5454;
     color: white;
-    text-align: center;
     display: inline-block;
     }
 
 .titulo{
     float: left;
-    width: 60%;
+    width: 55%;
     padding: 5%;
     text-align: left;
 }
 
 .titulo h1{
-    font-size: 30px ;
+    font-size: 30px;
 }
 
 .formulario {
+    width: 20%;
     background: #a59999;
     text-align: center;
-    display: table-row;
-    }
+    margin: 5%;
+	border-radius: 15px;
+    float: left;
+    box-sizing: border-box;
+	     }
 
 .formulario buttom{
     background: #5691d6;
     text-align: center;
-    
+    margin: 5%;
+    }
+.formulario input, .formulario buttom{
+    width: 80%;
+	box-sizing: border-box;
+    margin: 5%;
+    padding: 10px;
     }
 
-
-/* fin hero*/
+/* finpadding: hero*/
 
 footer{
     color: #c4b2b2;
-    display: inline;
+    display: inline-block;
+    width: 100%;
 }
 
 footer a{
     text-decoration: none;
     }
 
+/* fin footer */
+
+@media (max-width: 900px){
+    body{
+        width: 700px;
+    }
+}
 
 
 
-
+@media (max-width:700px){
+	.container{
+		width: 90%;
+	}
+	.titulo, .formulario{
+		width: 90%;
+	}
+}
 
 
 
